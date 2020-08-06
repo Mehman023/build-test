@@ -10,6 +10,7 @@ COPY ssl/* /etc/pki/ca-trust/source/anchors/
 
 ENV JAVA_HOME=/usr
 ENV LANG=en_US.UTF-8
+ENV NAME=NARIMAN-TEST-UCUN-ELEBELE-ELAVE-EDIREM
 
 RUN VERSION=12.0.2 && \
     BUILD=10 && \
