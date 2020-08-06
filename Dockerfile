@@ -7,7 +7,7 @@ LABEL description="This is a base image to build and run apps"
 
 ENV JAVA_HOME=/usr
 ENV LANG=en_US.UTF-8
-ENV NAME=NARIMAN-TEST-UCUN-ELEBELE-ELAVE-EDIREM
+ENV NAME=NARIMAN
 
 RUN VERSION=12.0.2 && \
     BUILD=10 && \
